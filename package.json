@@ -8,9 +8,18 @@
     "start": "node server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "DeAnna Martinez",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
-  }
+    "express": "^4.17.1",
+    "mongoose": "^5.9.23"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deannapi/pizza-hunt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/deannapi/pizza-hunt/issues"
+  },
+  "homepage": "https://github.com/deannapi/pizza-hunt#readme"
 }
