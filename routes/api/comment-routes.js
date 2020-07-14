@@ -15,6 +15,6 @@ router
   .put(addReply)
   .delete(removeComment)
 
-// PUT route to handle addNewReply()
+router.route('/:pizzaId/:commentId/:replyId').delete(removeReply);
 
 module.exports = router;
